@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 100dvh;
+    background-image: linear-gradient(#1F654C,#C62833);
+}
+
+.header-box {
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+    width: 50%;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.header-text {
+    color: gold;
+    font-weight: 900;
+    font-size: 60px;
+    border: dashed white 4px;
+    padding: 8px;
+}
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 20rem;
+    padding: 1rem;
+}
+
+.content-text {
+    color: gold;
+    font-size: 22px;
+}
+
+.content-text-two {
+    color: gold;
+    margin-left: auto;
+    border-bottom: solid white 1px;
+}
